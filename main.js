@@ -28,7 +28,7 @@ function init() {
   //const material = new THREE.MeshBasicMaterial({ color: 0x0000ff });
 
   // Add texture -
-  const texture = new THREE.TextureLoader().load("textures/stupid.gif");
+  const texture = new THREE.TextureLoader().load("textures/chimkins.gif");
 
   // Create material with texture
   const material = new THREE.MeshBasicMaterial({ map: texture });
